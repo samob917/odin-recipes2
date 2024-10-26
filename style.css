@@ -12,5 +12,40 @@ h1 {
 
 .autumn.fancy {
     font-size: 24px;
-    background: gold;
+    background-color: gold;
+}
+
+.description,
+.ingredients,
+.steps {
+    background-color: RGBA(240, 10, 10, 0.8);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+#ingredients-list {
+    color: green;
+}
+
+#steps-list {
+    font-size: 20px;
+}
+
+#ingredients-list li {
+    background-color: RGBA(10, 50, 10, 0.3);
+    text-align: left;
+}
+
+#steps-list li {
+    background-color: RGBA(30, 0, 15, 0.2);
+    text-align: left;
+}
+
+* {
+    text-align: center;
+    font-family: "Times New Roman", Times, Serif;
 }
