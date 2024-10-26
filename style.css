@@ -1,0 +1,16 @@
+
+h1 {
+    background-color: orange;
+    text-align: center;
+    font-size: 48px;
+}
+
+.autumn {
+    color: red;
+    background-color: yellow;
+}
+
+.autumn.fancy {
+    font-size: 24px;
+    background: gold;
+}
