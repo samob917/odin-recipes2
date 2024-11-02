@@ -3,11 +3,20 @@ h1 {
     background-color: orange;
     text-align: center;
     font-size: 48px;
+    padding: 8px;
+    margin: 30px;
+}
+
+.recipe-list {
+    margin: 30px;
+    border: 3px solid black;
+    padding: 24px;
 }
 
 .autumn {
     color: red;
     background-color: yellow;
+    margin: 10px;
 }
 
 .autumn.fancy {
@@ -43,6 +52,28 @@ p {
 #steps-list li {
     background-color: RGBA(30, 0, 15, 0.2);
     text-align: left;
+}
+
+.desc-box {
+    border: 2px dashed black;
+    padding: 24px;
+    margin: 30px;
+}
+
+.ingred-box {
+    border: 2px dotted black;
+    padding: 24px;
+    margin: 30px;
+}
+
+.ingred-box ul li {
+    margin: 10px;
+}
+
+.steps-box {
+    border: 2px solid black;
+    padding: 24px;
+    margin: 30px;
 }
 
 * {
